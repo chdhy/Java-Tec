@@ -1,2 +1,6 @@
 rootProject.name = 'Java-Tec'
+include ":butterknife-annotation"
+include ":butterknife-compiler"
+include ":butterknife-lib"
+include ":app"
 
