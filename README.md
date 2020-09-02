@@ -1,9 +1,13 @@
-[TOC]
-
-
+   * [APT:注解处理工具 annotation process tool](#apt注解处理工具-annotation-process-tool)
+      * [What](#what)
+      * [Why](#why)
+      * [Where](#where)
+      * [How](#how)
+         * [举一](#举一)
+      * [Tips](#tips)
+      * [Links](#links)
 
 # APT:注解处理工具 annotation process tool
-
 
 
 ## What
