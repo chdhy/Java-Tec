@@ -41,7 +41,8 @@ class Room {
         }
 
 
-        inline fun <reified T> create(clazz: Class<T>): T {
+        fun <T> create(clazz: Class<T>): T {
+            @Suppress("UNCHECKED_CAST")
             return Proxy.newProxyInstance(clazz.classLoader, arrayOf(clazz), InvocationHandler { _, method, args ->
                 when (val annotation = method.annotations[0]) {
                     is Query -> query(method, annotation)
@@ -51,7 +52,7 @@ class Room {
             }) as T
         }
 
-        fun insert(args: Array<Any>) {
+        private fun insert(args: Array<Any>) {
             val collectionArgs = mutableListOf<Any>()
             if (Iterable::class.java.isAssignableFrom(args[0].javaClass).not()) {
                 collectionArgs.add(args[0])
@@ -84,7 +85,7 @@ class Room {
             }
         }
 
-        fun query(method: Method, annotation: Query): Any {
+        private fun query(method: Method, annotation: Query): Any {
             val returnType = method.genericReturnType
             var rawType: Type? = null
             lateinit var actualType: Type
