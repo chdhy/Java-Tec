@@ -12,10 +12,8 @@ repositories {
 }
 
 dependencies {
-    kapt "com.google.auto.service:auto-service:1.0-rc7"
-    implementation project(':butterknife-annotation')
-    implementation "com.google.auto.service:auto-service:1.0-rc7"
-    implementation "com.squareup:kotlinpoet:1.6.0"
     implementation "org.jetbrains.kotlin:kotlin-stdlib"
     testCompile group: 'junit', name: 'junit', version: '4.12'
+    kapt project(':apt:butterknife-compiler')
+    api project(':apt:butterknife-annotation')
 }

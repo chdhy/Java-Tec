@@ -10,8 +10,8 @@ import javax.lang.model.element.TypeElement
 import javax.tools.Diagnostic
 import javax.tools.StandardLocation
 
-const val bindView = "com.hunter.annotation.BindView"
-const val onclick = "com.hunter.annotation.OnClick"
+const val bindView = "BindView"
+const val onclick = "OnClick"
 
 @AutoService(Processor::class)
 @SupportedSourceVersion(SourceVersion.RELEASE_8)

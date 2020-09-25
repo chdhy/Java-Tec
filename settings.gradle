@@ -2,8 +2,7 @@ rootProject.name = 'Java-Tec'
 
 include ":generic"
 
-include ":butterknife-annotation"
-include ":butterknife-compiler"
-include ":butterknife-lib"
-include ":app"
-
+include ":apt:butterknife-annotation"
+include ":apt:butterknife-compiler"
+include ":apt:butterknife-lib"
+include ":apt:app"
