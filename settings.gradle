@@ -6,3 +6,5 @@ include ":apt:butterknife-annotation"
 include ":apt:butterknife-compiler"
 include ":apt:butterknife-lib"
 include ":apt:app"
+
+include ":io"
