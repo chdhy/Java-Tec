@@ -8,3 +8,5 @@ include ":apt:butterknife-lib"
 include ":apt:app"
 
 include ":io"
+
+include ":dynamic_proxy"
