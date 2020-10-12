@@ -27,7 +27,7 @@
 
 ## How
 
-![代理模式](/Users/dhy/IdeaProjects/Java-Tec/resource/代理.png)
+![代理模式](https://raw.githubusercontent.com/chdhy/Java-Tec/dynamic_proxy/resource/proxy.png)
 
 
 
