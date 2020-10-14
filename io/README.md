@@ -65,11 +65,11 @@ public void write(byte b[], int off, int len) throws IOException {
 
 再来看看两种流的部分主要继承体系
 
-![](https://raw.githubusercontent.com/chdhy/Java-Tec/io/resource/InputStream.png)
+![](https://raw.githubusercontent.com/chdhy/Java-Tec/master/io/resource/InputStream.png)
 
 <center>InputStream<center/>
 
-![](https://raw.githubusercontent.com/chdhy/Java-Tec/io/resource/OutputStream.png)
+![](https://raw.githubusercontent.com/chdhy/Java-Tec/master/io/resource/OutputStream.png)
 
 
 <center>OutputStream<center/>
@@ -287,14 +287,14 @@ abstract public void write(char cbuf[], int off, int len) throws IOException;
 
 
 
-![](https://raw.githubusercontent.com/chdhy/Java-Tec/io/resource/Reader.png)
+![](https://raw.githubusercontent.com/chdhy/Java-Tec/master/io/resource/Reader.png)
 
 <center>Reader<center/>
 
 
 
 
-![](https://raw.githubusercontent.com/chdhy/Java-Tec/io/resource/Writer.png)
+![](https://raw.githubusercontent.com/chdhy/Java-Tec/master/io/resource/Writer.png)
 
 <center>Writer<center/>
 

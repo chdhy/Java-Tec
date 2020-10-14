@@ -26,7 +26,7 @@ AP: 注解处理器 （Annotation **Processor**），是 ```javax.annotation.pro
 
 ## How
 
-![注解module结构图](https://raw.githubusercontent.com/chdhy/Java-Tec/apt/resource/apt-module-struct.svg)
+![注解module结构图](https://raw.githubusercontent.com/chdhy/Java-Tec/master/resource/apt-module-struct.svg)
 
 <center>典型注解module依赖图</center>	
 
@@ -95,7 +95,7 @@ annotation class BindView(
 
 ### 举一
 
-![butterknife-logo](https://raw.githubusercontent.com/chdhy/Java-Tec/apt/resource/butterknife-logo.png)
+![butterknife-logo](https://raw.githubusercontent.com/chdhy/Java-Tec/master/resource/butterknife-logo.png)
 
 以 ButterKnife 原理为例：
 
